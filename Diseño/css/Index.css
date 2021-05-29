@@ -1,0 +1,53 @@
+.bodyBack{
+    background-color: beige;
+}
+.Titulo1{
+    position: fixed;
+    left: 38%;
+    top: 30%;
+
+}
+.menu {
+    position: fixed;
+    top: 40%;
+    left: 450px;
+    width: calc(100% - 100px);
+}
+.menu nav {
+    width: 500px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 50%);
+}
+.menu nav a {
+    text-align: center;
+    width: 25%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: black;
+}
+.menu nav a span {
+    display: none;
+}
+
+.menu nav a:hover {
+    background-color: black;
+    color: #fff;
+    display: block;
+}
+
+.menu nav a:hover span {
+    display: block;
+}
